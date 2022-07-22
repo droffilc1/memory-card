@@ -6,7 +6,7 @@
 }
 
 html {
-  background: rgb(4, 4, 4);
+  background: #222;
   background: linear-gradient(
     0deg,
     rgba(4, 4, 4, 0.8295693277310925) 18%,
@@ -46,11 +46,12 @@ body {
 
 .current-score {
   display: inline-block;
+  
 }
 
 .best-score {
   display: inline-block;
-  /* float: right; */
+  float: right;
 }
 
 .card-container {
@@ -90,9 +91,6 @@ figcaption {
 }
 
 footer {
-  position: absolute;
-  bottom: 0;
-  left: 0;
   display: flex;
   align-items: center;
   justify-content: center;

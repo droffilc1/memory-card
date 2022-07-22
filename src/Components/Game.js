@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Card from './Card';
+import CardContainer from './Container';
 import Header from './Header';
 
 function Game() {
@@ -35,16 +35,16 @@ function Game() {
   };
 
   return (
-    <div>
+    <>
       <Header score={score} highScore={highScore} />
       <div className="card-container" id="card-container">
-        <Card
+        <CardContainer
           handleGameLogic={handleGameLogic}
           score={score}
           highScore={highScore}
         />
       </div>
-    </div>
+    </>
   );
 }
 

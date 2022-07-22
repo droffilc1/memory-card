@@ -16,7 +16,7 @@ import shanks from '../Images/shanks.jfif';
 function Container(props) {
   const { handleGameLogic, score, highScore } = props;
 
-  let Images = [
+  let images = [
     {
       src: luffy,
       title: 'Luffy',
@@ -91,7 +91,7 @@ function Container(props) {
     },
   ];
 
-  const [cards, setNewCards] = useState(Images);
+  const [cards, setNewCards] = useState(images);
 
   const shuffle = (newCards) => {
     for (let i = newCards.length - 1; i > 0; i--) {
@@ -103,18 +103,18 @@ function Container(props) {
     }
   };
 
-  useEffect((cards) => {
+  useEffect(() => {
     const newCards = [...cards];
     shuffle(newCards);
     setNewCards(newCards);
   }, [score, highScore]);
 
   return (
-    <div>
+    <>
       {cards.map((card) => (
         <Card card={card} key={card.title} handleGameLogic={handleGameLogic} />
       ))}
-    </div>
+    </>
   );
 }
 
