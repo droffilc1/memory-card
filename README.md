@@ -6,6 +6,9 @@ Inspire by One Piece Anime
 * REACT
 * CSS
 
+## Live Demo
+For the link to the live demo, [Click here](https://memory-card-1kdi.vercel.app/) :point_left:
+
 ## Running The Project
 To get a local copy up and running you just need to follow the following steps in your terminal;
 ```
