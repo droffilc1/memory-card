@@ -9,6 +9,8 @@ Inspire by One Piece Anime
 ## Live Demo
 For the link to the live demo, [Click here](https://memory-card-1kdi.vercel.app/) :point_left:
 
+![memory-card](https://github.com/droffilc1/memory-card/assets/97587370/c7d107dc-6410-42f2-a7c1-e522f08904e6)
+
 ## Running The Project
 To get a local copy up and running you just need to follow the following steps in your terminal;
 ```
